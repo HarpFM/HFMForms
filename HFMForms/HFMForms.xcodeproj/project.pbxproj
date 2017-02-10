@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30B0963AB845A1C82F3069DC /* Pods_HFMForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC81629A4922FE0DE03ECF20 /* Pods_HFMForms.framework */; };
+		D363C8291E26B12A00716219 /* HFMForms.h in Headers */ = {isa = PBXBuildFile; fileRef = D363C8271E26B12A00716219 /* HFMForms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D363C83C1E26B17700716219 /* HFMFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8311E26B17700716219 /* HFMFormController.swift */; };
+		D363C83D1E26B17700716219 /* HFMFormElementProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8321E26B17700716219 /* HFMFormElementProtocol.swift */; };
+		D363C83E1E26B17700716219 /* HFMFormSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8331E26B17700716219 /* HFMFormSectionView.swift */; };
+		D363C83F1E26B17700716219 /* HFMFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8341E26B17700716219 /* HFMFormView.swift */; };
+		D363C84D1E26B1E300716219 /* HFMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8471E26B1E300716219 /* HFMButton.swift */; };
+		D363C84E1E26B1E300716219 /* HFMImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8481E26B1E300716219 /* HFMImageView.swift */; };
+		D363C84F1E26B1E300716219 /* HFMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8491E26B1E300716219 /* HFMLabel.swift */; };
+		D363C8501E26B1E300716219 /* HFMSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C84A1E26B1E300716219 /* HFMSelect.swift */; };
+		D363C8511E26B1E300716219 /* HFMSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C84B1E26B1E300716219 /* HFMSwitch.swift */; };
+		D363C8521E26B1E300716219 /* HFMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C84C1E26B1E300716219 /* HFMTextField.swift */; };
+		D363C8541E26B23B00716219 /* HFMFormSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8531E26B23B00716219 /* HFMFormSettings.swift */; };
+		D363C85C1E26B41E00716219 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C85B1E26B41E00716219 /* Operators.swift */; };
+		D363C85E1E26B42400716219 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C85D1E26B42400716219 /* UIViewExtensions.swift */; };
+		D363C8601E26B45F00716219 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C85F1E26B45F00716219 /* ArrayExtensions.swift */; };
+		D363C8621E26B49E00716219 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D363C8611E26B49E00716219 /* UITextFieldExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		658D373D238692B16404C295 /* Pods-HFMForms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFMForms.release.xcconfig"; path = "../Pods/Target Support Files/Pods-HFMForms/Pods-HFMForms.release.xcconfig"; sourceTree = "<group>"; };
+		D3560DF61E4D013F00BBF967 /* HFMForms.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HFMForms.podspec; path = ../HFMForms.podspec; sourceTree = "<group>"; };
+		D363C8241E26B12A00716219 /* HFMForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HFMForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D363C8271E26B12A00716219 /* HFMForms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFMForms.h; sourceTree = "<group>"; };
+		D363C8281E26B12A00716219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D363C8311E26B17700716219 /* HFMFormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMFormController.swift; sourceTree = "<group>"; };
+		D363C8321E26B17700716219 /* HFMFormElementProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMFormElementProtocol.swift; sourceTree = "<group>"; };
+		D363C8331E26B17700716219 /* HFMFormSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMFormSectionView.swift; sourceTree = "<group>"; };
+		D363C8341E26B17700716219 /* HFMFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMFormView.swift; sourceTree = "<group>"; };
+		D363C8471E26B1E300716219 /* HFMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMButton.swift; sourceTree = "<group>"; };
+		D363C8481E26B1E300716219 /* HFMImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMImageView.swift; sourceTree = "<group>"; };
+		D363C8491E26B1E300716219 /* HFMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMLabel.swift; sourceTree = "<group>"; };
+		D363C84A1E26B1E300716219 /* HFMSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMSelect.swift; sourceTree = "<group>"; };
+		D363C84B1E26B1E300716219 /* HFMSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMSwitch.swift; sourceTree = "<group>"; };
+		D363C84C1E26B1E300716219 /* HFMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMTextField.swift; sourceTree = "<group>"; };
+		D363C8531E26B23B00716219 /* HFMFormSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HFMFormSettings.swift; sourceTree = "<group>"; };
+		D363C85B1E26B41E00716219 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		D363C85D1E26B42400716219 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		D363C85F1E26B45F00716219 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		D363C8611E26B49E00716219 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		DC81629A4922FE0DE03ECF20 /* Pods_HFMForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFMForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DCF9328DE3453510B8C10A /* Pods-HFMForms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFMForms.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-HFMForms/Pods-HFMForms.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D363C8201E26B12A00716219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B0963AB845A1C82F3069DC /* Pods_HFMForms.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37462F735D68A9818068C267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC81629A4922FE0DE03ECF20 /* Pods_HFMForms.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F95EAA56D98E6C8C458161C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7DCF9328DE3453510B8C10A /* Pods-HFMForms.debug.xcconfig */,
+				658D373D238692B16404C295 /* Pods-HFMForms.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D363C81A1E26B12A00716219 = {
+			isa = PBXGroup;
+			children = (
+				D3560DF61E4D013F00BBF967 /* HFMForms.podspec */,
+				D363C8261E26B12A00716219 /* HFMForms */,
+				D363C8251E26B12A00716219 /* Products */,
+				7F95EAA56D98E6C8C458161C /* Pods */,
+				37462F735D68A9818068C267 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D363C8251E26B12A00716219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D363C8241E26B12A00716219 /* HFMForms.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D363C8261E26B12A00716219 /* HFMForms */ = {
+			isa = PBXGroup;
+			children = (
+				D363C8271E26B12A00716219 /* HFMForms.h */,
+				D363C8281E26B12A00716219 /* Info.plist */,
+				D363C82F1E26B14500716219 /* Core */,
+				D363C85A1E26B3FE00716219 /* Support */,
+			);
+			path = HFMForms;
+			sourceTree = "<group>";
+		};
+		D363C82F1E26B14500716219 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D363C8311E26B17700716219 /* HFMFormController.swift */,
+				D363C8321E26B17700716219 /* HFMFormElementProtocol.swift */,
+				D363C8331E26B17700716219 /* HFMFormSectionView.swift */,
+				D363C8341E26B17700716219 /* HFMFormView.swift */,
+				D363C8531E26B23B00716219 /* HFMFormSettings.swift */,
+				D363C8461E26B17F00716219 /* Elements */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D363C8461E26B17F00716219 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				D363C8471E26B1E300716219 /* HFMButton.swift */,
+				D363C8481E26B1E300716219 /* HFMImageView.swift */,
+				D363C8491E26B1E300716219 /* HFMLabel.swift */,
+				D363C84A1E26B1E300716219 /* HFMSelect.swift */,
+				D363C84B1E26B1E300716219 /* HFMSwitch.swift */,
+				D363C84C1E26B1E300716219 /* HFMTextField.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		D363C85A1E26B3FE00716219 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D363C85F1E26B45F00716219 /* ArrayExtensions.swift */,
+				D363C85B1E26B41E00716219 /* Operators.swift */,
+				D363C8611E26B49E00716219 /* UITextFieldExtensions.swift */,
+				D363C85D1E26B42400716219 /* UIViewExtensions.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D363C8211E26B12A00716219 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D363C8291E26B12A00716219 /* HFMForms.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D363C8231E26B12A00716219 /* HFMForms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D363C82C1E26B12A00716219 /* Build configuration list for PBXNativeTarget "HFMForms" */;
+			buildPhases = (
+				A882075DD2674F24904C20FE /* [CP] Check Pods Manifest.lock */,
+				D363C81F1E26B12A00716219 /* Sources */,
+				D363C8201E26B12A00716219 /* Frameworks */,
+				D363C8211E26B12A00716219 /* Headers */,
+				D363C8221E26B12A00716219 /* Resources */,
+				A62EEBEB9C6FF22CCC234A15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFMForms;
+			productName = HFMForm;
+			productReference = D363C8241E26B12A00716219 /* HFMForms.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D363C81B1E26B12A00716219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Harp.fm;
+				TargetAttributes = {
+					D363C8231E26B12A00716219 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 79E585EFP3;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D363C81E1E26B12A00716219 /* Build configuration list for PBXProject "HFMForms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D363C81A1E26B12A00716219;
+			productRefGroup = D363C8251E26B12A00716219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D363C8231E26B12A00716219 /* HFMForms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D363C8221E26B12A00716219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A62EEBEB9C6FF22CCC234A15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-HFMForms/Pods-HFMForms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A882075DD2674F24904C20FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D363C81F1E26B12A00716219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D363C83D1E26B17700716219 /* HFMFormElementProtocol.swift in Sources */,
+				D363C8511E26B1E300716219 /* HFMSwitch.swift in Sources */,
+				D363C84E1E26B1E300716219 /* HFMImageView.swift in Sources */,
+				D363C85E1E26B42400716219 /* UIViewExtensions.swift in Sources */,
+				D363C8501E26B1E300716219 /* HFMSelect.swift in Sources */,
+				D363C83E1E26B17700716219 /* HFMFormSectionView.swift in Sources */,
+				D363C85C1E26B41E00716219 /* Operators.swift in Sources */,
+				D363C83F1E26B17700716219 /* HFMFormView.swift in Sources */,
+				D363C8521E26B1E300716219 /* HFMTextField.swift in Sources */,
+				D363C8601E26B45F00716219 /* ArrayExtensions.swift in Sources */,
+				D363C84F1E26B1E300716219 /* HFMLabel.swift in Sources */,
+				D363C8541E26B23B00716219 /* HFMFormSettings.swift in Sources */,
+				D363C8621E26B49E00716219 /* UITextFieldExtensions.swift in Sources */,
+				D363C84D1E26B1E300716219 /* HFMButton.swift in Sources */,
+				D363C83C1E26B17700716219 /* HFMFormController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D363C82A1E26B12A00716219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D363C82B1E26B12A00716219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D363C82D1E26B12A00716219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DCF9328DE3453510B8C10A /* Pods-HFMForms.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 79E585EFP3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HFMForms/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.harp.forms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D363C82E1E26B12A00716219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658D373D238692B16404C295 /* Pods-HFMForms.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 79E585EFP3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = HFMForms/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fm.harp.forms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D363C81E1E26B12A00716219 /* Build configuration list for PBXProject "HFMForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D363C82A1E26B12A00716219 /* Debug */,
+				D363C82B1E26B12A00716219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D363C82C1E26B12A00716219 /* Build configuration list for PBXNativeTarget "HFMForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D363C82D1E26B12A00716219 /* Debug */,
+				D363C82E1E26B12A00716219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D363C81B1E26B12A00716219 /* Project object */;
+}
