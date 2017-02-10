@@ -2,7 +2,7 @@
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/HFMForms.svg)](https://cocoapods.org/pods/HFMForms)
 [![Platform](https://img.shields.io/cocoapods/p/HFMForms.svg)](http://cocoadocs.org/docsets/HFMForms)
 
-HFMForms is a library to help you manage complex form layouts. It offers basic elements, a system for setting custom styles and defaults, and allows custom views used anywhere. HFMForms works utilizes `UIStackView` instead of the other options out there that use `UITableView`.
+**HFMForms** is a library to help you manage complex form layouts. It offers basic elements, a system for setting custom styles and defaults, and allows custom views used anywhere. HFMForms works utilizes `UIStackView` instead of the other options out there that use `UITableView`.
 
 - [Features](#features)
 - [Requirements](#requirements)
