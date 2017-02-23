@@ -79,4 +79,4 @@ We *do not* plan on adding any themes other than the default at this time, but w
 
 ## License
 
-ParkingPandaSDK is released under the MIT license. See LICENSE for details.
+HFMForms is released under the MIT license. See LICENSE for details.
